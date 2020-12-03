@@ -1,0 +1,7 @@
+Running: xsim.dir/DifExpTB_behav/xsimk.exe -simmode gui -wdb DifExpTB_behav.wdb -simrunnum 0 -socket 62211
+Design successfully loaded
+Design Loading Memory Usage: 5372 KB (Peak: 5372 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 5944 KB (Peak: 5944 KB)
+Simulation CPU Usage: 30 ms

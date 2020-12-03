@@ -1,6 +1,6 @@
 Vivado Simulator 2020.1
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Running: E:/Vivado/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ShiftRegTB_behav xil_defaultlib.ShiftRegTB -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,19 +12,6 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.std_logic_arith
 Compiling package ieee.std_logic_unsigned
-Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
-Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
-Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
-Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
-Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
-Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
 Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
-Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
-Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
-Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
-Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
-Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
-Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
-Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
-Compiling architecture behavioral of entity xil_defaultlib.test
-Built simulation snapshot test_behav
+Compiling architecture behavioral of entity xil_defaultlib.shiftregtb
+Built simulation snapshot ShiftRegTB_behav

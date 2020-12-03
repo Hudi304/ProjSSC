@@ -59,7 +59,6 @@ begin
     begin
             case AluCTRL is
                 when '0' => aux <= MX + MY;                      -- add mantissas
-                
                 when others => aux <= MX - MY;                   -- sub mantissas
             end case;
     end process;

@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Hudi/Desktop/SSCproj/SSCProjVivado/finalProject.srcs/sim_1/new/ShiftRegTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ShiftRegTB'
