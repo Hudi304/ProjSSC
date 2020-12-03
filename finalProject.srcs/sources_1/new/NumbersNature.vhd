@@ -22,7 +22,7 @@ signal ManX, ManY, ManZ : STD_LOGIC_VECTOR(22 downto 0);
 begin
 
     SignX <= X(31);
-    SignY <= Y(31) xor op;  -- integrate operation sign into Y's sign bit
+    SignX <= Y(31);
     
     ExpX <= X(30 downto 23);
     ExpY <= Y(30 downto 23);

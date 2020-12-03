@@ -1,0 +1,2296 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 20 14:30:21 2020
+# Process ID: 21756
+# Current directory: D:/finalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1232 D:\finalProject\finalProject.xpr
+# Log file: D:/finalProject/vivado.log
+# Journal file: D:/finalProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/finalProject/finalProject.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Anul 3/SSC/Proiect/finalProject' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'finalProject.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.102 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_files -from_files D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd -to_files D:/finalProject/finalProject.srcs/sources_1/new/Verify_Numbers.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/finalProject/finalProject.srcs/sources_1/new/Verify_Numbers.vhd' with file 'D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Difference_Exponents.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Difference_Exponents'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Increment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Increment'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Load_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Load_Register'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/MUX_2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/UC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UC'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Shift_Left_Right_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Shift_Left_Right_Register'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Zero_Mantissa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Zero_Mantissa'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Rounding.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Rounding'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/SignSelection.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SignSelection'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+ERROR: [VRFC 10-2989] 'selectoperation' is not declared [D:/finalProject/finalProject.srcs/sim_1/new/test.vhd:128]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [D:/finalProject/finalProject.srcs/sim_1/new/test.vhd:39]
+INFO: [VRFC 10-3070] VHDL file 'D:/finalProject/finalProject.srcs/sim_1/new/test.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/finalProject/finalProject.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/finalProject/finalProject.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Sat Nov 21 21:59:39 2020] Launched synth_1...
+Run output will be captured here: D:/finalProject/finalProject.runs/synth_1/runme.log
+launch_runs impl_2 -jobs 6
+[Sat Nov 21 22:00:19 2020] Launched impl_2...
+Run output will be captured here: D:/finalProject/finalProject.runs/impl_2/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Difference_Exponents.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Difference_Exponents'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Increment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Increment'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Load_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Load_Register'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/MUX_2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/UC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UC'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Shift_Left_Right_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Shift_Left_Right_Register'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Zero_Mantissa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Zero_Mantissa'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Rounding.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Rounding'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/SignSelection.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SignSelection'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/finalProject/finalProject.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/finalProject/finalProject.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Nov 21 22:01:23 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 21 22:01:23 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.102 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.102 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1036.660 ; gain = 20.559
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1036.660 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1036.660 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1046.953 ; gain = 8.402
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1057.699 ; gain = 6.820
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1057.699 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 31 elements ; expected 32 [D:/finalProject/finalProject.srcs/sim_1/new/test.vhd:105]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit test in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/finalProject/finalProject.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/finalProject/finalProject.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1073.996 ; gain = 3.004
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1079.516 ; gain = 2.336
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1086.781 ; gain = 6.207
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1094.988 ; gain = 5.336
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1100.105 ; gain = 3.195
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1107.566 ; gain = 6.406
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1117.355 ; gain = 8.750
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1132.680 ; gain = 15.184
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.156 ; gain = 9.434
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/NumbersNature.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NumbersNature'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/finalProject/finalProject.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+"xelab -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b92c5e164e354985a96b484d88825507 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_behav xil_defaultlib.test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Load_Register [load_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.NumbersNature [numbersnature_default]
+Compiling architecture behavioral of entity xil_defaultlib.Difference_Exponents [difference_exponents_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [\MUX_2_1(nrbits=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero_Mantissa [zero_mantissa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Left_Right_Register [\Shift_Left_Right_Register(nrbit...]
+Compiling architecture behavioral of entity xil_defaultlib.Rounding [rounding_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignSelection [signselection_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavioral of entity xil_defaultlib.test
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/finalProject/finalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.160 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1147.117 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 23 20:18:43 2020...

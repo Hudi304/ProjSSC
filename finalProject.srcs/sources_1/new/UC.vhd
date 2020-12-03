@@ -45,7 +45,6 @@ entity UC is
          ZComp : in STD_LOGIC_VECTOR(4 downto 0);
          SumMant : in STD_LOGIC_VECTOR(24 downto 23);    -- the sum of mantissas
          Start : in STD_LOGIC;
-         op : in STD_LOGIC;
          ExpDec : in STD_LOGIC_VECTOR(8 downto 0);
          ExpInc : in STD_LOGIC_VECTOR(8 downto 0);
          SR : out STD_LOGIC ;                            
@@ -99,8 +98,7 @@ begin
                      when load =>  st <= init;                    --load numbers to operate with
                      
                      when init =>                                 -- initialization state
-                                    case op is                                                       
-                                        when '0' => if SX = '0' and SY = '0' then          -- addition operation
+                                         if SX = '0' and SY = '0' then          -- addition operation
                                                         SelOp <= '0';
                                                         
                                                      elsif SX = '0' and SY ='1' then
@@ -114,20 +112,8 @@ begin
                                                      
                                                      end if;
                                                      
-                                        when others =>  if SX = '0' and SY = '0' then         -- substraction operation
-                                                            SelOp <= '1';
-                                                            
-                                                        elsif SX = '0' and SY = '1' then
-                                                            SelOp <= '0';
-                                                            
-                                                        elsif SX = '1' and SY = '0' then
-                                                            SelOp <= '0';
-                                                        
-                                                        elsif SX = '1' and SY = '1' then
-                                                            SelOp <= '1';
-                                        
-                                                        end if;
-                                end case;
+                                       
+                                
                                   
                                 st <= dif_exp;   
                                   

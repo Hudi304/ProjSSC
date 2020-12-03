@@ -133,7 +133,7 @@ signal ZVerif : STD_LOGIC_VECTOR(31 downto 0);
 
 begin
 
-    --NumberB(31) <= Y(31) xor op;
+    NumberB(31) <= Y(31) xor op;
     
     FirstNumber : entity WORK.Load_Register port map (
                         D => X,
@@ -177,7 +177,6 @@ begin
                         ZComp => cntShift,
                         SumMant => SumMant(24 downto 23),
                         Start => StartOp,
-                        op => op,
                         ExpDec => Expdec,
                         ExpInc => ExpInc,
                         SR => SR,
@@ -219,6 +218,7 @@ begin
                         Sel => Mmin,
                         Z => LowerMantMux
         );
+        
     LowerMant <= '1' & LowerMantMux;
                   
     GreaterMantissa : entity WORK.MUX_2_1 
