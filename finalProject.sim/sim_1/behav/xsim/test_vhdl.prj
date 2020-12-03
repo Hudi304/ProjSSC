@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../finalProject.srcs/sources_1/new/ALU.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Difference_Exponents.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Increment.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Load_Register.vhd" \
+"../../../../finalProject.srcs/sources_1/new/MUX_2_1.vhd" \
+"../../../../finalProject.srcs/sources_1/new/NumbersNature.vhd" \
+"../../../../finalProject.srcs/sources_1/new/UC.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Shift_Left_Right_Register.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Zero_Mantissa.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Rounding.vhd" \
+"../../../../finalProject.srcs/sources_1/new/SignSelection.vhd" \
+"../../../../finalProject.srcs/sources_1/new/Main.vhd" \
+"../../../../finalProject.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort
